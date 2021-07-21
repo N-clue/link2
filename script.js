@@ -152,7 +152,7 @@ let x = join_meet();
 
 window.addEventListener("load", function(){
     if(x == "noclass") {
-        document.write('<h1 style="text-align:center; display:flex; justify-content:center; padding:1vw; background-color:rgb(30, 34, 255);color:white;border-radius: 50%;">No Class. Enjoy for Now</h1>');
+        document.write('<div style="display: flex; justify-content:center;"><h1 style="text-align:center; display:flex; justify-content:center; padding:1vw; background-color:rgb(30, 34, 255);color:white;border-radius:60%;">No Class. Enjoy for Now</h1></div>');
     }else{
         this.location = x;
     }
