@@ -124,13 +124,10 @@ function join_meet(){
     let d = new Date();
     let current_day = d.getDay();
     let current_time = d.getHours();
-    console.log("current_day", current_day);
-    console.log("current_time", current_time);
 
     if(current_day <= 0 && current_day > 6) {
         return "noclass";
     }else{
-        console.log("Entered the else class");
         for(var i = 0; i < classDays[current_day].length; i++) {
             if(classDays[current_day][i].time == current_time)
             {
@@ -144,8 +141,6 @@ function join_meet(){
 }
 
 let x = join_meet();
-
-
 
 
 
