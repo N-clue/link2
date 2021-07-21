@@ -1,0 +1,7 @@
+body {
+    background-image: url(./assets/images/moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(178, 207, 124);
+    background-blend-mode: difference;
+}
