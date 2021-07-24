@@ -108,7 +108,7 @@ const classDays = [
         }
 
     ],
-    //Saturday
+    //Friday
     [
         {
             time:9,
@@ -125,7 +125,7 @@ function join_meet(){
     let current_day = d.getDay();
     let current_time = d.getHours();
 
-    if(current_day <= 0 && current_day > 6) {
+    if(current_day <= 0 && current_day > 5) {
         return "noclass";
     }else{
         for(var i = 0; i < classDays[current_day].length; i++) {
